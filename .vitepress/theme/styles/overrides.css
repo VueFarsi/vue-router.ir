@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;900&display=swap');
+
+:root {
+  --vp-font-family-base: 'Vazirmatn', sans-serif !important;
+  --vp-font-family-mono: 'Vazirmatn', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+.VPMenuLink {
+  direction: rtl;
+}
+
+.vp-external-link-icon::after {
+  margin-left: 0;
+  margin-right: 4px;
+}
+
+.VPHomeHero > .container > .main > .actions {
+  flex-direction: row-reverse;
+}
+
+@media (min-width: 960px) {
+  .VPHomeHero > .container {
+    flex-direction: row-reverse;
+    text-align: start !important;
+  }
+}
