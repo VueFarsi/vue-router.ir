@@ -4,76 +4,76 @@ const config: DefaultTheme.Sidebar = {
   // catch-all fallback
   '/': [
     {
-      text: 'Setup',
+      text: 'آغاز',
       items: [
         {
-          text: 'Introduction',
+          text: 'معرفی',
           link: '/introduction.html',
         },
         {
-          text: 'Installation',
+          text: 'نصب و راه‌اندازی',
           link: '/installation.html',
         },
       ],
     },
     {
-      text: 'Essentials',
+      text: 'الزامات',
       items: [
         {
-          text: 'Getting Started',
+          text: 'شروع شدن',
           link: '/guide/',
         },
         {
-          text: 'Dynamic Route Matching',
+          text: 'تطبیق مسیر به صورت پویا',
           link: '/guide/essentials/dynamic-matching.html',
         },
         {
-          text: "Routes' Matching Syntax",
+          text: "نحو تطبیق مسیرها",
           link: '/guide/essentials/route-matching-syntax.html',
         },
         {
-          text: 'Nested Routes',
+          text: 'مسیرهای تو در تو',
           link: '/guide/essentials/nested-routes.html',
         },
         {
-          text: 'Programmatic Navigation',
+          text: 'مسیریابی به صورت برنامه‌ای',
           link: '/guide/essentials/navigation.html',
         },
         {
-          text: 'Named Routes',
+          text: 'مسیرهای نام‌گذاری‌شده',
           link: '/guide/essentials/named-routes.html',
         },
         {
-          text: 'Named Views',
+          text: 'View های نام‌گذاری‌شده',
           link: '/guide/essentials/named-views.html',
         },
         {
-          text: 'Redirect and Alias',
+          text: 'ریدایرکت و الیاس',
           link: '/guide/essentials/redirect-and-alias.html',
         },
         {
-          text: 'Passing Props to Route Components',
+          text: 'ارسال پراپ‌ها به کامپوننت مسیرها',
           link: '/guide/essentials/passing-props.html',
         },
         {
-          text: 'Different History modes',
+          text: 'حالت‌های متفاوت هیستوری',
           link: '/guide/essentials/history-mode.html',
         },
       ],
     },
     {
-      text: 'Advanced',
+      text: 'پیشرفته',
       items: [
         {
-          text: 'Navigation guards',
+          text: 'گاردهای مسیریابی',
           link: '/guide/advanced/navigation-guards.html',
         },
         {
-          text: 'Route Meta Fields',
+          text: 'فیلدهای متا',
           link: '/guide/advanced/meta.html',
         },
         {
-          text: 'Data Fetching',
+          text: 'واکشی داده (Data Fetching)',
           link: '/guide/advanced/data-fetching.html',
         },
         {
@@ -81,35 +81,35 @@ const config: DefaultTheme.Sidebar = {
           link: '/guide/advanced/composition-api.html',
         },
         {
-          text: 'RouterView slot',
+          text: 'RouterView اسلات',
           link: '/guide/advanced/router-view-slot.html',
         },
         {
-          text: 'Transitions',
+          text: 'ترنزیشن‌ها',
           link: '/guide/advanced/transitions.html',
         },
         {
-          text: 'Scroll Behavior',
+          text: 'رفتار اسکرول',
           link: '/guide/advanced/scroll-behavior.html',
         },
         {
-          text: 'Lazy Loading Routes',
+          text: 'مسیرهای تنبل(Lazy Loading)',
           link: '/guide/advanced/lazy-loading.html',
         },
         {
-          text: 'Typed Routes',
+          text: 'مسیرهای تایپ‌گذاری‌شده',
           link: '/guide/advanced/typed-routes.html',
         },
         {
-          text: 'Extending RouterLink',
+          text: 'گسترش RouterLink',
           link: '/guide/advanced/extending-router-link.html',
         },
         {
-          text: 'Navigation Failures',
+          text: 'خطاهای مسیریابی',
           link: '/guide/advanced/navigation-failures.html',
         },
         {
-          text: 'Dynamic Routing',
+          text: 'مسیریابی پویا',
           link: '/guide/advanced/dynamic-routing.html',
         },
       ],
@@ -117,7 +117,7 @@ const config: DefaultTheme.Sidebar = {
     {
       items: [
         {
-          text: 'Migrating from Vue 2',
+          text: 'مهاجرت از Vue 2',
           link: '/guide/migration/index.html',
         },
       ],
@@ -126,7 +126,7 @@ const config: DefaultTheme.Sidebar = {
 
   '/api/': [
     {
-      text: 'packages',
+      text: 'پکیج‌ها',
       items: [{ text: 'vue-router', link: '/api/' }],
     },
   ],

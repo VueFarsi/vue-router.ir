@@ -2,28 +2,28 @@ import type { DefaultTheme } from 'vitepress'
 
 const config: DefaultTheme.NavItem[] = [
   {
-    text: 'Guide',
+    text: 'راهنما',
     link: '/guide/',
     activeMatch: '^/guide/',
   },
-  { text: 'API', link: '/api/', activeMatch: '^/api/' },
+  { text: '(API) میانجی‌های برنامه نویسی', link: '/api/', activeMatch: '^/api/' },
   {
     text: 'v4.x',
     items: [{ text: 'v3.x', link: 'https://v3.router.vuejs.org' }],
   },
   {
-    text: 'Links',
+    text: 'پیوند‌ها',
     items: [
       {
-        text: 'Discussions',
+        text: 'بحث‌ها (Discussions)',
         link: 'https://github.com/vuejs/router/discussions',
       },
       {
-        text: 'Changelog',
+        text: 'تغییرات (changelog)',
         link: 'https://github.com/vuejs/router/blob/main/packages/router/CHANGELOG.md',
       },
       {
-        text: 'Vue.js Certification',
+        text: 'گواهی‌نامه Vue.js',
         link: 'https://certification.vuejs.org/?friend=VUEROUTER',
       },
     ],
